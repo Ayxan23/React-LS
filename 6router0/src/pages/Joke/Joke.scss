@@ -1,0 +1,15 @@
+.norris__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 80px;
+
+  &__header img {
+    width: 500px;
+  }
+}
